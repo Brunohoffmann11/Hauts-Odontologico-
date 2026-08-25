@@ -1,0 +1,13 @@
+{
+  "pages": [
+    { "id": "page-editorial", "name": "Direção Editorial (terracota)" },
+    { "id": "page-violeta", "name": "Direção Violeta (clínico-minimal)" }
+  ],
+  "artboards": [
+    { "file": "Main.dc.html", "title": "Desktop", "x": 0, "y": 0, "w": 1440, "h": 7100, "expand": "fill", "page": "page-editorial" },
+    { "file": "Tablet.dc.html", "title": "Tablet", "x": 1560, "y": 0, "w": 834, "h": 8800, "expand": "fill", "page": "page-editorial" },
+    { "file": "Mobile.dc.html", "title": "Mobile", "x": 2494, "y": 0, "w": 390, "h": 11700, "expand": "fill", "page": "page-editorial" },
+    { "file": "Violeta.dc.html", "title": "Desktop — Violeta", "x": 0, "y": 0, "w": 1440, "h": 4000, "expand": "fill", "page": "page-violeta" }
+  ],
+  "launch": { "view": "canvas", "page": "page-editorial" }
+}
